@@ -14,7 +14,7 @@
     background-image: url(./img/design.png);
     background-repeat: no-repeat;
     background-size:500px ;
-    background-position: 710px;
+    background-position: 735px;
     background-color: #191919;
 
 
@@ -37,9 +37,6 @@ nav{
     .nav{
         padding: 18px 20px;
     }
-
-    
-
     
 }
 .meu-nome{
