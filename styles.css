@@ -8,6 +8,8 @@
 
 
 
+
+
 .caixa-principal{
     height: 100vh;
     width: 100%;
@@ -22,7 +24,6 @@
 
 
 
-
 nav{
     display: flex;
     align-items: center;
@@ -33,12 +34,37 @@ nav{
 
 }
 
-@media screen and (min-width: 400px){
-    .nav{
-        padding: 18px 20px;
+@media screen and (max-width: 1000px){
+    li{
+        padding-left: 85%;
+
     }
+
+    section img{
+        display: none;
+
+    }
+
+    section{
+        text-align: center;
+    }
+
+    .meu-nome h1{
+        text-align: center;
+        
+    }
+    .meu-nome h3{
+       text-align: center;
+    }
+
+    .caixa-principal{
+        background-image: none;
+    }
+
+
     
 }
+
 .meu-nome{
     position: absolute;
     top: 45%;
@@ -131,6 +157,8 @@ section div button{
     border-radius: 26px;
     margin-top: 20px;
     cursor: pointer;
+    list-style: none;
+    
 }
 
 section div button:hover{
