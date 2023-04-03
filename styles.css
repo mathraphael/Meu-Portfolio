@@ -188,15 +188,19 @@ section div button:hover{
     padding: 20px 35px;
     text-align: center;
 }
+.card img{
+    height: 80px;
+}
 .card h5{
     color: white;
-    font-size: 24px;
-    margin-top: 5px;
-    margin-bottom: 50px;
+    font-size: 13;
+    margin-top: 1px;
+    margin-bottom: 15px;
 }
 .card p{
     color: white;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
+    font-size: 10px;
 }
 .card a{
     color: white;
