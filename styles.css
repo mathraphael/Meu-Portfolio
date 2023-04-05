@@ -46,18 +46,22 @@ header .container{
 nav ul{
     display: flex;
     
+    
 }
 
 nav ul li{
     list-style: none;
     
+    
 }
 
 nav ul li a{
+    
     text-decoration: none;
     margin-left: 30px;
     padding: 6px 10px;
     font-size: 1.2rem;
+    
     
 }
 
@@ -92,9 +96,12 @@ nav ul li a{
     .one,
     .two,
     .three{
-        background-color: red;
+        background-color: white;
         height: 5px;
         margin: 6px auto;
+        
+
+        transition-duration: 0.3s;
     }
 
     .menu-burguer{
@@ -102,6 +109,59 @@ nav ul li a{
         height: 30px;
         
     }
+
+    .menu-section.on{
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        width: 100vw;
+        height: 100vh;
+        background-color: red;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .menu-section.on nav{
+        display: block;
+    }
+
+    .menu-section.on .menu-burguer{
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+
+    .menu-section.on .menu-burguer .one{
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+
+    .menu-section.on .menu-burguer .two{
+        opacity: 0;
+    }
+
+    .menu-section.on .menu-burguer .three{
+        transform: rotate(-45deg) translate(9px, -9px);
+    }
+
+    .menu-section.on nav ul{
+        display: block;
+        text-align: center;
+        
+        
+    }
+    .menu-section.on nav ul a{
+        transition-duration: 0.3s ;
+        font-size: 4rem;
+        line-height: 16rem;
+        margin-left: 0;
+        
+        
+    }
+
 }
 
 
@@ -160,7 +220,7 @@ h1 span{
 }
 
 .portfolio:hover{
-    transform: scale(1.5);
+    transform: scale(1.3);
     transition: 0.5s;
 
 }
