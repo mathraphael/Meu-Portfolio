@@ -1,26 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;500&display=swap" rel="stylesheet">
     <title>Matheus Raphael</title>
 </head>
+
 <body>
+    <header>
+        <div class="container">
+
+            <div class="logo">
+                <h2 class="portfolio">Meu Portfo<span>lio</span></h2>
+            </div>
+
+            <div class="menu-section on">
+                <div class="menu-burguer">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a class="link-menu" href="#home">Home</a></li>
+                        <li><a class="link-menu" href="#sobre">Sobre</a></li>
+                        <li><a class="link-menu" href="#projetos-id">Projetos</a></li>
+                        <li><a class="link-menu" href="#fale-comigo">Fale comigo</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
     <div class="caixa-principal" id="home">
-        <nav>
-            <h2 class="portfolio">Meu Portfo<span>lio</span></h2>
-            <ul>
-                <li><a class="link-menu" href="#home">Home</a></li>
-                <li><a class="link-menu" href="#sobre">Sobre</a></li>
-                <li><a class="link-menu" href="#projetos-id">Projetos</a></li>
-                <li><a class="link-menu" href="#fale-comigo">Fale comigo</a></li>
-            </ul>
-        </nav>
 
         <div class="meu-nome">
             <h1>Matheus<span> Raphael</span></h1>
@@ -28,49 +47,53 @@
         </div>
     </div>
 
-        <section id="sobre">
-            <img src="./img/eu.PNG">
-            <div>
-                <h2>Sobre Mim</h2>
-                <p>Eu sou um Pesquisador e Desenvolvedor Front End, tenho experiência em desenvolvimento com conhecimentos em Java, C e Dart. Possuo domínio no Pacotte Office
-                    (Excel, PowerPoint e Word). Também tenho conhecimento em Flutter, Spring Boot, HTML, CSS, Java Script,
-                    Vue.js, Rest API, Firebase Ecosystem. Participei de um projeto de desenvolvimento de um aplicativo mobile
-                    durante o período do estágio.</p>
-                    <button>Entre em contato</button>
-            </div>
-        </section>
+    <section id="sobre">
+        <img src="./img/eu.PNG">
+        <div>
+            <h2>Sobre Mim</h2>
+            <p>Eu sou um Pesquisador e Desenvolvedor Front End, tenho experiência em desenvolvimento com conhecimentos
+                em Java, C e Dart. Possuo domínio no Pacotte Office
+                (Excel, PowerPoint e Word). Também tenho conhecimento em Flutter, Spring Boot, HTML, CSS, Java Script,
+                Vue.js, Rest API, Firebase Ecosystem. Participei de um projeto de desenvolvimento de um aplicativo
+                mobile
+                durante o período do estágio.</p>
+            <button>Entre em contato</button>
+        </div>
+    </section>
 
-        <div class="projetos" id="projetos-id">
-            <h2>Principais Projetos</h2>
+    <div class="projetos" id="projetos-id">
+        <h2>Principais Projetos</h2>
 
-            <div class="cards-projeto">
+        <div class="cards-projeto">
 
-            <div class="card" >
-                <img src="/img/previsao.png"> 
-                <h5>Previsão do  tempo</h5>
-                <p>Um site onde consigo ver dados climáticos de qualquer cidade, utilizando a API do openweathermap.org </p>
-                <a href="https://mathraphael.github.io/previsao_app/" target="_blank" >Ver Projeto</a>
-                
+            <div class="card">
+                <img src="/img/previsao.png">
+                <h5>Previsão do tempo</h5>
+                <p>Um site onde consigo ver dados climáticos de qualquer cidade, utilizando a API do openweathermap.org
+                </p>
+                <a href="https://mathraphael.github.io/previsao_app/" target="_blank">Ver Projeto</a>
+
             </div>
 
         </div>
 
+    </div>
+
+    <footer id="fale-comigo">
+        <h5>Matheus Raphael</h5>
+        <p>Para mais informações</p>
+
+        <div class="social">
+            <a href="https://www.linkedin.com/in/matheus-raphael/" target="_blank">
+                <img src="./img/linkedin.png"></a>
+            <a href="https://github.com/mathraphael" target="_blank">
+                <img src="./img/github.png"></a>
         </div>
+    </footer>
 
-        <footer id="fale-comigo">
-            <h5>Matheus Raphael</h5>
-            <p>Para mais informações</p>
+    </div>
+    </div>
 
-            <div class="social">
-                <a href="https://www.linkedin.com/in/matheus-raphael/" target="_blank">
-                    <img src="./img/linkedin.png"></a>
-                <a href="https://github.com/mathraphael" target="_blank">
-                    <img src="./img/github.png"></a>
-            </div>
-        </footer>
-
-        </div>
- </div>
-    
 </body>
+
 </html>
