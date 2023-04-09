@@ -32,7 +32,8 @@ header .container{
     width: 90%;
     max-width: 1600px;
     margin: auto;
-    padding: 10px
+    padding: 10px;
+    padding-top: 30px
 }
 
 .menu-burguer{
@@ -107,9 +108,9 @@ nav ul li a{
     }
 
     .menu-burguer{
-        width: 40px;
-        height: 30px;
-        
+        width: 35px;
+        height: 35px;
+                
     }
 
     .menu-section.on{
@@ -165,6 +166,11 @@ nav ul li a{
         margin-left: 0;
         
         
+    }
+
+    .meu-nome{
+        text-align: center;
+        justify-content: center;
     }
 
 }
