@@ -78,6 +78,7 @@ nav ul li a{
     background-size:500px ;
     background-position: 95%;
     background-color: #191919;
+    
 
 
 }
@@ -113,6 +114,9 @@ nav ul li a{
 
     .menu-section.on{
         position: absolute;
+        z-index: 999;
+        
+        
         top: 0;
         right: 0;
 
