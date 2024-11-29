@@ -174,7 +174,9 @@ nav ul li a{
     }
 
     .cards-projeto{
+        align-items: center;
         flex-direction: column;
+
         
     }
 
