@@ -173,6 +173,18 @@ nav ul li a{
         justify-content: center;
     }
 
+    .cards-projeto{
+        flex-direction: column;
+        
+    }
+
+    .card{
+        margin-bottom: 32px;
+        justify-content: center;
+    }
+
+    
+
 }
 
 
